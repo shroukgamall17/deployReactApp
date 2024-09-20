@@ -22,6 +22,7 @@ export default function Home() {
       and
       <br></br>
       color is {color}
+      hello from deployment
       <br></br>
       <button
         className="btn btn-success"
