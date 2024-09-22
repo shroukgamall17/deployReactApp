@@ -40,7 +40,7 @@ const routes = createBrowserRouter([
   {
     path: "/",
     element: <AppLayout></AppLayout>,
-    children: [
+    children: 
       { index: true, element: <Home /> },
       {
         path: "about",
