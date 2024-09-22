@@ -8,12 +8,12 @@ export default function AppLayout() {
   //en ltr
   //ar rtl
   return (
-  
+  <>
       <div dir={`${lang == "en" ? "ltr" : "rtl"}`}>
         <Header />
         <Todo></Todo>
         <Outlet></Outlet>
       </div>
-  
+  </>
   );
 }
